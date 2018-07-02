@@ -1,0 +1,6 @@
+show databases;
+create database test;
+use test;
+create table student(id int,name varchar(50),age int)
+insert into student(id,name,age)values(1,'hh',23);
+select *from student;

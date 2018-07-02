@@ -1,0 +1,9 @@
+spring.datasource.master.jdbc-url=jdbc:mysql://127.0.0.1:3306/test
+spring.datasource.master.username=demo
+spring.datasource.master.password=demo
+spring.datasource.master.driver-class-name=com.mysql.jdbc.Driver
+
+spring.datasource.slave.jdbc-url=jdbc:mysql://127.0.0.1:3306/test
+spring.datasource.slave.username=demo
+spring.datasource.slave.password=demo
+spring.datasource.slave.driver-class-name=com.mysql.jdbc.Driver
